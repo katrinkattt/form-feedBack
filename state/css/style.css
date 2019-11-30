@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(125, 197, 191, 0.884);
+}
+
+/* .clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+} */
+
+header{
+    background: url(../img/Canada_Mount.jpg) no-repeat center top / cover;
+    height: 700px;
+    padding-bottom: 150px;
+    
+}
+.headerr{
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    /* margin-top: 110px; */
+
+}
+.button{
+    background: rgb(49, 131, 255);
+    color: rgb(19, 36, 68);
+    border-radius: 3px;
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding:0;
+    padding-top: 20px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-top: 150px;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: rgba(189, 236, 219, 0.925);
+}
+ /* .conteiner{}  */
+
+ .about{
+     height: 300px;
+     width: 650px;
+     color: rgb(24, 47, 90);
+     text-align: center;
+
+     
+ }
+ .fotci{
+     height: 200px;
+     text-align: center;
+     margin-top: 50px;
+     padding-left: 70px;
+ }
+
+
+ h2{
+     font-size: 35px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.foto{
+    float: left;
+    line-height: 160px;
+    width: 150px;
+    height: 140px;
+    margin: 0 auto;
+    margin-right: 20px;
+    overflow: hidden;
+    border: 2px solid #757575;
+    border-radius: 50%;
+    
+}
+.persFoto{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ 
+.feedback{
+    border: 1px #000 solid ;
+
+    border-radius: 15px;
+    background: url(../img/wtff.jpg);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 15px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.76);
+
+}
+
+.feedback_title{
+    margin: 0;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    color: aliceblue;
+}
+
+.feedback_input{
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:inset 2px 3px 5px rgba(0, 0, 0, 0.87);
+}
+.feedback_input:focus{
+    outline: none;
+}
+
+.feedback_button{
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(86, 197, 197, 0.952);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.76);
+}
+/* .feedback_button:hover{
+
+} */
+
+.feedback_sign{
+    display: none;
+    color: red;
+}
+
+
+
+
+
+/* //////// */
